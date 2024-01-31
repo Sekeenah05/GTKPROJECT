@@ -1,0 +1,266 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 400px;
+}
+
+
+.Recipepage{
+    box-shadow: 0 0 2px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    padding: 20px 30px;
+    gap: 25px;
+    color: hsl(30, 10%, 34%);
+}
+
+
+.image img{
+    width: 500px;
+    border-radius: 40px;
+    
+}
+
+
+.simple{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.simple p{
+    width: 35vw;
+    font-size:smaller;
+}
+.simple h1{
+    color: hsl(24, 5%, 18%);
+}
+
+
+.prepa{
+    background-color: hsl(330, 100%, 98%);
+    padding: 15px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.prepa h3{
+  color:hsl(332, 51%, 32%) ;  
+}
+.prepa ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 30px;
+    font-size: smaller;
+}
+
+
+.ingre h2{
+    color: hsl(14, 45%, 36%);
+}
+.ingre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:hsl(30, 10%, 34%);
+    gap: 10px;
+}
+.ingre ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 30px;
+    font-size: smaller;
+}
+
+
+.Instruct{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    
+}
+.Instruct h2{
+    color: hsl(14, 45%, 36%);
+}
+.Instruct ol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 30px;
+    font-size:smaller ;
+}
+#beat{
+    width: 34vw;
+}
+#heat{
+    width:40vw;
+}
+#cook{
+    width: 34vw;
+}
+#add{
+    width: 35vw;
+}
+#fold{
+    width: 35vw;
+}
+#enjoy{
+    width: 50vw;
+}
+
+
+
+.nutri h2{
+    color: hsl(14, 45%, 36%);
+}
+
+#num{
+    color: hsl(14, 45%, 36%);;
+}
+
+
+.nutri{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.nut p{
+    font-size: smaller;
+}
+
+.nutri .size{
+    padding-left: 20px;
+}
+.cal{
+    display: flex;
+    gap: 30%;
+}
+
+.car{
+    display: flex;
+    gap: 33%;
+}
+
+.prot{
+    display: flex;
+    gap: 30%;
+}
+
+.fat{
+    display: flex;
+    gap: 35%;
+}
+.nut{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.size{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+hr{
+    stroke-width: 20px;
+    color:  hsl(30, 10%, 34%)
+}
+
+
+
+
+/*Mobile App*/
+@media screen and (max-width: 950px) {  
+    body{
+       padding: 0%;
+       background-color: white;
+    }
+    .image img{
+        width: 100%;
+        border-radius: 0%;
+    }
+
+    .Recipepage{
+        border-radius: 0%;
+        padding: 0%;
+    }
+
+    .simple p{
+        width: 76vw;
+    }
+
+    .simple{
+        padding-left: 10%;
+    }
+
+    .ingre{
+        padding-left: 10%;
+    }
+
+    .Instruct{
+        padding-left: 10%;
+    }
+    #opt{
+        width: 55vw;
+    }
+
+    .nut{
+        padding-left: 10%;
+    }
+
+    #beat{
+        width: 66vw;
+    }
+
+    #heat{
+        width: 68vw;
+    }
+
+    #cook{
+        width: 66vw;
+    }
+
+    #add{
+        width: 68vw;
+    }
+
+    #fold{
+        width: 68vw;
+    }
+
+    #enjoy{
+        width: 66vw;
+    }
+    .nut p{
+        width: 75vw;
+    }
+
+    .nutri .size{
+        padding-left: 10%;
+    }
+    .fat{
+        gap: 40%;
+    }
+    .car{
+        gap: 35%;
+    }
+
+}
